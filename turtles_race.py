@@ -4,14 +4,6 @@ import random
 colors = ["violet", "turquoise", "SkyBlue", "chartreuse", "gold", "tomato", "firebrick"]
 race_start = True
 winner_turtle_color= 0
-colors_str=""
-for color in colors:
-    colors_str += color
-    if color == colors[-2]:
-        colors_str += " and "
-    if color!= colors[-2] and color!= colors[-1]:
-        colors_str += ", "
-
 
 jon = turtle.Turtle()
 jon.color(colors[0])
