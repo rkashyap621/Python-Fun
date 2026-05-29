@@ -17,8 +17,6 @@ def clear():
     bob.home()
     bob.pendown()
 
-
-
 screen=Turtle_Module.Screen()
 
 bob=Turtle_Module.Turtle()
